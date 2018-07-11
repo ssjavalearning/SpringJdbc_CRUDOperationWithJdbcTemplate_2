@@ -34,8 +34,8 @@ public class ClientTest {
 
 	private static void createEmployee(EmployeeService employeeService) {
 		Employee employee = new Employee();
-		employee.setEmpoyeeName("Deepika");
-		employee.setEmail("deepz888@gmail.com");
+		employee.setEmpoyeeName("Raja");
+		employee.setEmail("raja123@gmail.com");
 		employee.setSalary(40000);
 		employee.setDeptNum(30);
 		employeeService.createEmployee(employee);
